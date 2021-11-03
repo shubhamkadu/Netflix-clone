@@ -1,0 +1,28 @@
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.plansScreen__plan:hover {
+  opacity: 5;
+}
+
+.plansScreen__plan > button {
+  padding: 10px 40px;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.plansScreen-disabled > button {
+      background-image: linear-gradient( -90deg, transparent, rgba(255, 251, 0, 0.61), rgb(0, 0, 0))
+ !important;
+}
+
